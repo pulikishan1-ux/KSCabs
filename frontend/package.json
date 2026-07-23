@@ -144,9 +144,10 @@
 
 
 "homepage": "https://pulikishan1-ux.github.io/KSCabs"
+}
 
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
-}
+
