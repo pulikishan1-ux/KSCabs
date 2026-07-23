@@ -1,0 +1,103 @@
+{
+  "project_name": "KS Cab Services",
+  "theme": "dark",
+  "emotion_archetype": "Electric & Neon meets Luxury (Speed, Precision, Elite)",
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "instructions": "Do NOT use Inter, Roboto, or Open Sans for headings. Use Outfit with tight tracking (`tracking-tighter`) for H1/H2. Use Manrope for body text with relaxed line height.",
+    "hierarchy": {
+      "h1": "text-5xl md:text-6xl+ font-black tracking-tighter uppercase",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body": "text-base md:text-lg text-neutral-400 font-light",
+      "labels": "text-xs font-bold tracking-[0.2em] uppercase text-accent"
+    }
+  },
+  "colors": {
+    "background": "#050505",
+    "surface": "#0F0F11",
+    "surface_glass": "rgba(15, 15, 17, 0.6)",
+    "accent_primary": "#00F0FF",
+    "accent_hover": "#33F3FF",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A3A3A3",
+    "border": "#262626",
+    "instructions": "Strictly dark theme. Never use pure white backgrounds. Ensure high contrast. The accent color (Neon Electric Blue) should be used sparingly for CTA buttons, active states, and glowing accents. Do not use generic full-screen gradients."
+  },
+  "visual_enhancers": {
+    "borders": "1px solid rgba(255, 255, 255, 0.1)",
+    "shadows": {
+      "glow": "0 0 20px rgba(0, 240, 255, 0.2)",
+      "ambient": "0 10px 40px rgba(0, 0, 0, 0.5)"
+    },
+    "glassmorphism": "backdrop-blur-xl bg-black/60 border-b border-white/10",
+    "effects": "Subtle noise texture overlay on the main background to eliminate digital flatness. Use spotlight effects on hover for fleet cards."
+  },
+  "layouts": {
+    "spacing": "Use generous padding: py-24 or py-32 for sections. Gap-8 to gap-12 in grids.",
+    "grid_system": "Bento grid for Fleet/Services. Asymmetric layout for Manifesto chapters. Use responsive grids (cols-1 on mobile, cols-3 on desktop)."
+  },
+  "motion": {
+    "libraries": ["framer-motion", "lenis"],
+    "hero_reveal": "Masked line-by-line staggered text reveal for the H1 using framer-motion (y: 100%, opacity: 0 -> y: 0, opacity: 1, staggerChildren).",
+    "scroll": "Use Lenis for smooth momentum scrolling. Implement scroll-linked reveals for Manifesto and Fleet sections.",
+    "hover": "Scale down images slightly or reveal a clipped frame on hover. Buttons should have a subtle glow effect on hover.",
+    "marquee": "Use react-fast-marquee for a slow, editorial ribbon separating sections."
+  },
+  "components": {
+    "navbar": "Sticky at top, z-50, crystal glassmorphism (`backdrop-blur-xl bg-black/60`). Must show links on desktop.",
+    "hero": "Large kinetic text, luxury car background with heavy overlay (`bg-black/50` to `bg-black/70`) to ensure text pops. Prominent 'Book Now' CTA.",
+    "marquee": "Slow moving, text: 'HYDERABAD • PREMIUM FLEET • TRANSPARENT PRICING • NO HIDDEN CHARGES'. Text style: uppercase, wide spacing, outlined or low opacity.",
+    "manifesto": "Numbered chapters (e.g., '01. THE FLEET', '02. THE PROMISE'). Large typography numbers, sticky scroll layout where text scrolls past a fixed image/number.",
+    "fleet_grid": "3-column grid. Real photography with spotlight/clipped frames. Include Cab Name, short desc, and flat-rate price (e.g., '₹22/km').",
+    "forms": "Multi-step Book Cab form (Name, Phone, Car Make/Model, Pickup, Drop, Date/Time). Contact Form (Name, Email, Message). Use Shadcn UI inputs, styled dark.",
+    "whatsapp_integration": "On form submit, format data cleanly and open `https://wa.me/919652424506?text=URL_ENCODED_STRING`. Prevent default submission."
+  },
+  "media": {
+    "image_urls": {
+      "hero_bg": {
+        "url": "https://images.pexels.com/photos/9028761/pexels-photo-9028761.jpeg",
+        "description": "Black sports car in dark moody garage - use as Hero background with dark overlay"
+      },
+      "fleet_suv_1": {
+        "url": "https://images.pexels.com/photos/37933345/pexels-photo-37933345.jpeg",
+        "description": "White SUV detail - use for Innova Crysta / Innova"
+      },
+      "fleet_suv_2": {
+        "url": "https://images.pexels.com/photos/15549900/pexels-photo-15549900.jpeg",
+        "description": "White SUV moving - use for Ertiga"
+      },
+      "fleet_sedan_1": {
+        "url": "https://images.pexels.com/photos/12920621/pexels-photo-12920621.jpeg",
+        "description": "Silver sedan - use for Maruti Ciaz"
+      },
+      "fleet_sedan_2": {
+        "url": "https://images.pexels.com/photos/31138744/pexels-photo-31138744.jpeg",
+        "description": "Silver car parked - use for Toyota Etios / Swift Dzire"
+      },
+      "manifesto_driver": {
+        "url": "https://images.pexels.com/photos/14797991/pexels-photo-14797991.jpeg",
+        "description": "Professional driver - use in Manifesto/About section"
+      },
+      "testimonials": [
+        "https://images.pexels.com/photos/4872060/pexels-photo-4872060.jpeg",
+        "https://images.pexels.com/photos/5945433/pexels-photo-5945433.jpeg"
+      ]
+    },
+    "instructions": "All images must have a unified treatment (e.g., grayscale with blue highlights, or darkened with high contrast). Never use placeholder images."
+  },
+  "accessibility": {
+    "contrast": "Ensure text meets WCAG AA standards. Text over images MUST have text-shadow or a gradient overlay behind it.",
+    "testing": "All interactive elements (buttons, inputs) must have `data-testid` attributes."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Prioritize motion, craft, and wow-factor over everything else.",
+    "Do NOT use universal transitions (`transition: all`). Use specific transitions.",
+    "Never center-align the app container (`.App { text-align: center; }`).",
+    "Use pill-shaped or sharp buttons with hover effects (e.g., border glow).",
+    "No emojis for icons. Use `lucide-react`.",
+    "Forms must handle state properly and trigger the WhatsApp deep link correctly.",
+    "Use `sonner` for toast notifications (e.g., 'Redirecting to WhatsApp...')."
+  ]
+}

@@ -1,0 +1,7 @@
+/* App-level styles — most theming lives in index.css */
+.App {
+    min-height: 100vh;
+    background: #FFFFFF;
+    color: #0A0A0A;
+    text-align: left;
+}
