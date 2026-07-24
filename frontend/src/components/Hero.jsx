@@ -73,8 +73,8 @@ export const Hero = () => {
           transition={{ delay: 0.1, duration: 0.8 }}
           className="flex items-center gap-3 mb-8"
         >
-          <span className="h-px w-10 bg-[#00BFCC]" />
-          <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+          <span className="h-px w-10 bg-[#FF6B00]" />
+          <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
             KS Cab Services / Hyderabad
           </span>
         </motion.div>
@@ -140,7 +140,7 @@ export const Hero = () => {
             <a
               href="#book"
               data-testid="hero-book-cta"
-              className="btn-sharp group inline-flex items-center gap-4 bg-neutral-900 text-white pl-8 pr-3 py-3 text-sm font-bold tracking-[0.25em] uppercase hover:bg-[#00BFCC] transition-colors"
+              className="btn-sharp group inline-flex items-center gap-4 bg-neutral-900 text-white pl-8 pr-3 py-3 text-sm font-bold tracking-[0.25em] uppercase hover:bg-[#FF6B00] transition-colors"
             >
               Book a Ride
               <span className="flex items-center justify-center w-10 h-10 bg-[#00F0FF] text-neutral-900 group-hover:bg-white group-hover:text-neutral-900 transition-colors">
@@ -151,7 +151,7 @@ export const Hero = () => {
               <div>
                 <div className="text-[10px] text-neutral-500">Starting at</div>
                 <div className="text-lg text-neutral-900 font-display font-bold tracking-tight">
-                  ₹14<span className="text-[#00BFCC]">/km</span>
+                  ₹14<span className="text-[#FF6B00]">/km</span>
                 </div>
               </div>
               <div className="w-px h-8 bg-neutral-300" />

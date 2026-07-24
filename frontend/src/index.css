@@ -75,7 +75,7 @@
 
 /* Custom selection */
 ::selection {
-    background: #00BFCC;
+    background: #aeacaa;
     color: #FFFFFF;
 }
 
@@ -92,7 +92,7 @@
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #00BFCC;
+    background: #FF6B00;
 }
 
 /* Grain texture overlay */
@@ -192,7 +192,7 @@ html.lenis, html.lenis body {
 }
 .text-outline-accent {
     color: transparent;
-    -webkit-text-stroke: 1.5px #00BFCC;
+    -webkit-text-stroke: 1.5px #FF6B00;
 }
 
 /* Number stroke */
@@ -207,7 +207,7 @@ html.lenis, html.lenis body {
 /* Input focus glow */
 .input-field:focus {
     outline: none;
-    border-color: #00BFCC !important;
+    border-color: #FF6B00 !important;
     box-shadow: 0 0 0 1px rgba(0, 191, 204, 0.35);
 }
 

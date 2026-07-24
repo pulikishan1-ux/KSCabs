@@ -29,7 +29,7 @@ export const EditorialMarquee = () => {
             >
               {item}
             </span>
-            <span className="w-2 h-2 bg-[#00BFCC] rotate-45" />
+            <span className="w-2 h-2 bg-[#FF6B00] rotate-45" />
           </div>
         ))}
       </Marquee>

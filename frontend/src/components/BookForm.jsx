@@ -99,8 +99,8 @@ export const BookForm = () => {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-12 md:mb-16">
           <div className="md:col-span-8">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#00BFCC]" />
-              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+              <span className="h-px w-10 bg-[#FF6B00]" />
+              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
                 05 / Book a Ride
               </span>
             </div>
@@ -216,10 +216,10 @@ export const BookForm = () => {
                       wide
                     />
                     <div
-                      className="md:col-span-2 border border-[#00BFCC]/40 bg-[#00F0FF]/[0.06] p-4 md:p-5 flex flex-col md:flex-row md:items-center gap-3"
+                      className="md:col-span-2 border border-[#FF6B00]/40 bg-[#00F0FF]/[0.06] p-4 md:p-5 flex flex-col md:flex-row md:items-center gap-3"
                       data-testid="book-airport-note"
                     >
-                      <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] shrink-0">
+                      <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] shrink-0">
                         Pricing Note
                       </span>
                       <span className="text-neutral-700 text-sm font-light leading-relaxed">
@@ -233,11 +233,11 @@ export const BookForm = () => {
                 {step === 2 && (
                   <div>
                     <div className="flex items-center justify-between gap-4 mb-4 flex-wrap">
-                      <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC]">
+                      <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00]">
                         Select a cab
                       </div>
                       <div
-                        className="font-mono text-[10px] tracking-[0.25em] uppercase text-neutral-700 border border-[#00BFCC]/40 bg-[#00F0FF]/[0.08] px-3 py-1.5"
+                        className="font-mono text-[10px] tracking-[0.25em] uppercase text-neutral-700 border border-[#FF6B00]/40 bg-[#00F0FF]/[0.08] px-3 py-1.5"
                         data-testid="book-cab-pricing-badge"
                       >
                         {isAirport
@@ -259,7 +259,7 @@ export const BookForm = () => {
                               .replace(/\s+/g, "-")}`}
                             className={`text-left border p-4 flex items-center justify-between gap-3 transition-colors duration-300 ${
                               selected
-                                ? "border-[#00BFCC] bg-[#00F0FF]/[0.08]"
+                                ? "border-[#FF6B00] bg-[#00F0FF]/[0.08]"
                                 : "border-neutral-200 hover:border-neutral-400"
                             }`}
                           >
@@ -272,7 +272,7 @@ export const BookForm = () => {
                               </div>
                             </div>
                             <div className="text-right">
-                              <div className="font-mono text-[10px] tracking-widest text-[#00BFCC] uppercase leading-tight">
+                              <div className="font-mono text-[10px] tracking-widest text-[#FF6B00] uppercase leading-tight">
                                 {isAirport ? (
                                   <>Flat<br />Package</>
                                 ) : (
@@ -290,7 +290,7 @@ export const BookForm = () => {
                 {step === 3 && (
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
-                      <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-4">
+                      <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-4">
                         Review your booking
                       </div>
                       <dl className="divide-y divide-neutral-200 border-y border-neutral-200">
@@ -303,13 +303,13 @@ export const BookForm = () => {
                         {data.notes && <Row label="Notes" value={data.notes} />}
                       </dl>
                     </div>
-                    <div className="border border-[#00BFCC]/40 bg-[#00F0FF]/[0.08] p-6 md:p-8 flex flex-col gap-4">
-                      <MessageSquare className="w-6 h-6 text-[#00BFCC]" />
+                    <div className="border border-[#FF6B00]/40 bg-[#00F0FF]/[0.08] p-6 md:p-8 flex flex-col gap-4">
+                      <MessageSquare className="w-6 h-6 text-[#FF6B00]" />
                       <div className="font-display font-bold text-neutral-900 text-xl leading-tight">
                         On confirm, we open WhatsApp with your booking pre-typed.
                       </div>
                       <p className="text-neutral-700 text-sm font-light leading-relaxed">
-                        Just hit <span className="text-[#00BFCC] font-medium">Send</span> in
+                        Just hit <span className="text-[#FF6B00] font-medium">Send</span> in
                         WhatsApp and our dispatch team will call you within a
                         few minutes to lock in your ride.
                       </p>
@@ -337,7 +337,7 @@ export const BookForm = () => {
               <button
                 onClick={next}
                 data-testid="book-next-btn"
-                className="px-6 py-5 flex items-center justify-end gap-3 bg-neutral-900 text-white hover:bg-[#00BFCC] transition-colors duration-300"
+                className="px-6 py-5 flex items-center justify-end gap-3 bg-neutral-900 text-white hover:bg-[#FF6B00] transition-colors duration-300"
               >
                 <span className="font-mono text-xs tracking-[0.25em] uppercase font-bold">
                   Next Step
@@ -382,7 +382,7 @@ const Field = ({
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
       data-testid={testId}
-      className="input-field bg-transparent border-b border-neutral-300 focus:border-[#00BFCC] py-3 text-neutral-900 text-base md:text-lg placeholder:text-neutral-400 transition-colors duration-300"
+      className="input-field bg-transparent border-b border-neutral-300 focus:border-[#FF6B00] py-3 text-neutral-900 text-base md:text-lg placeholder:text-neutral-400 transition-colors duration-300"
     />
   </label>
 );

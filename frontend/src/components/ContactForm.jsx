@@ -37,8 +37,8 @@ export const ContactForm = () => {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-14">
           <div className="md:col-span-8">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#00BFCC]" />
-              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+              <span className="h-px w-10 bg-[#FF6B00]" />
+              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
                 06 / Contact
               </span>
             </div>
@@ -55,27 +55,27 @@ export const ContactForm = () => {
           {/* Meta rail */}
           <div className="md:col-span-4 flex flex-col gap-6">
             <MetaBlock
-              icon={<Phone className="w-4 h-4 text-[#00BFCC]" />}
+              icon={<Phone className="w-4 h-4 text-[#FF6B00]" />}
               label="Dispatch"
               value="+91 96524 64506"
               href="tel:+919652464506"
               testId="contact-meta-phone"
             />
             <MetaBlock
-              icon={<Mail className="w-4 h-4 text-[#00BFCC]" />}
+              icon={<Mail className="w-4 h-4 text-[#FF6B00]" />}
               label="Enquiries"
               value="bookings@ks-cabs.com"
               href="mailto:bookings@ks-cabs.com"
               testId="contact-meta-email"
             />
             <MetaBlock
-              icon={<MapPin className="w-4 h-4 text-[#00BFCC]" />}
+              icon={<MapPin className="w-4 h-4 text-[#FF6B00]" />}
               label="Based in"
               value="Hyderabad · Telangana"
               testId="contact-meta-location"
             />
-            <div className="mt-4 border border-[#00BFCC]/40 p-6 bg-[#E1F6FA]">
-              <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-3">
+            <div className="mt-4 border border-[#FF6B00]/40 p-6 bg-[#E1F6FA]">
+              <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-3">
                 Hours
               </div>
               <div className="font-display font-bold text-neutral-900 text-2xl leading-tight">
@@ -124,7 +124,7 @@ export const ContactForm = () => {
                 placeholder="Tell us what you need — corporate account, monthly rentals, wedding fleet, anything."
                 rows={6}
                 data-testid="contact-input-message"
-                className="input-field bg-transparent border border-neutral-300 focus:border-[#00BFCC] p-4 text-neutral-900 text-base placeholder:text-neutral-400 resize-none transition-colors duration-300"
+                className="input-field bg-transparent border border-neutral-300 focus:border-[#FF6B00] p-4 text-neutral-900 text-base placeholder:text-neutral-400 resize-none transition-colors duration-300"
               />
             </label>
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pt-2">
@@ -135,7 +135,7 @@ export const ContactForm = () => {
               <button
                 type="submit"
                 data-testid="contact-submit-btn"
-                className="btn-sharp inline-flex items-center gap-4 bg-neutral-900 text-white pl-6 pr-3 py-3 text-xs font-bold tracking-[0.25em] uppercase hover:bg-[#00BFCC] transition-colors duration-300 self-start md:self-auto"
+                className="btn-sharp inline-flex items-center gap-4 bg-neutral-900 text-white pl-6 pr-3 py-3 text-xs font-bold tracking-[0.25em] uppercase hover:bg-[#FF6B00] transition-colors duration-300 self-start md:self-auto"
               >
                 Send via WhatsApp
                 <span className="flex items-center justify-center w-9 h-9 bg-[#00F0FF] text-neutral-900">
@@ -168,7 +168,7 @@ const MetaBlock = ({ icon, label, value, href, testId }) => {
     <a
       href={href}
       data-testid={testId}
-      className="group block border border-neutral-200 hover:border-[#00BFCC]/60 p-6 bg-white transition-colors duration-500"
+      className="group block border border-neutral-200 hover:border-[#FF6B00]/60 p-6 bg-white transition-colors duration-500"
     >
       {inner}
     </a>
@@ -193,7 +193,7 @@ const Field = ({ label, value, onChange, placeholder, type = "text", testId }) =
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
       data-testid={testId}
-      className="input-field bg-transparent border-b border-neutral-300 focus:border-[#00BFCC] py-3 text-neutral-900 text-base md:text-lg placeholder:text-neutral-400 transition-colors duration-300"
+      className="input-field bg-transparent border-b border-neutral-300 focus:border-[#FF6B00] py-3 text-neutral-900 text-base md:text-lg placeholder:text-neutral-400 transition-colors duration-300"
     />
   </label>
 );

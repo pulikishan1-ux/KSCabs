@@ -18,7 +18,7 @@ export const Footer = () => {
 
         <div className="grid md:grid-cols-12 gap-10 md:gap-8">
           <div className="md:col-span-5">
-            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-4">
+            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-4">
               About
             </div>
             <p className="text-neutral-700 font-light leading-relaxed max-w-md">
@@ -28,7 +28,7 @@ export const Footer = () => {
           </div>
 
           <div className="md:col-span-3">
-            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-4">
+            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-4">
               Explore
             </div>
             <ul className="flex flex-col gap-2 text-neutral-700">
@@ -56,7 +56,7 @@ export const Footer = () => {
           </div>
 
           <div className="md:col-span-4">
-            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-4">
+            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-4">
               Dispatch
             </div>
             <div className="font-display font-bold text-neutral-900 text-2xl">
@@ -94,7 +94,7 @@ const SocialLink = ({ href, label, children, testId }) => (
     href={href}
     aria-label={label}
     data-testid={testId}
-    className="w-9 h-9 border border-neutral-300 hover:border-[#00BFCC] hover:text-[#00BFCC] text-neutral-700 flex items-center justify-center transition-colors duration-300"
+    className="w-9 h-9 border border-neutral-300 hover:border-[#FF6B00] hover:text-[#FF6B00] text-neutral-700 flex items-center justify-center transition-colors duration-300"
   >
     {children}
   </a>

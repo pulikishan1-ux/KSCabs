@@ -43,8 +43,8 @@ export const Manifesto = () => {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-20 md:mb-32">
           <div className="md:col-span-7">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#00BFCC]" />
-              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+              <span className="h-px w-10 bg-[#FF6B00]" />
+              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
                 03 / Manifesto
               </span>
             </div>
@@ -98,7 +98,7 @@ export const Manifesto = () => {
                     </div>
                   </div>
                   <div className={`${isRight ? "md:pr-16" : "md:pl-16"}`}>
-                    <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-4">
+                    <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-4">
                       Chapter · {c.number}
                     </div>
                     <h3 className="font-display font-bold tracking-tight text-neutral-900 text-3xl md:text-4xl mb-5">

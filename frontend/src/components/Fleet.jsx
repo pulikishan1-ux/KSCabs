@@ -93,8 +93,8 @@ const FleetCard = ({ car, index }) => {
       onMouseMove={handleMouseMove}
       data-testid={`fleet-card-${car.name.toLowerCase().replace(/\s+/g, "-")}`}
       className={`spotlight group relative flex flex-col bg-white border ${
-        car.accent ? "border-[#00BFCC]/60 bg-gradient-to-b from-[#F0FBFD] to-white" : "border-[#C7EEF3]"
-      } hover:border-[#00BFCC] transition-colors duration-500 overflow-hidden shadow-sm hover:shadow-md`}
+        car.accent ? "border-[#FF6B00]/60 bg-gradient-to-b from-[#F0FBFD] to-white" : "border-[#C7EEF3]"
+      } hover:border-[#FF6B00] transition-colors duration-500 overflow-hidden shadow-sm hover:shadow-md`}
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
         <img
@@ -105,14 +105,14 @@ const FleetCard = ({ car, index }) => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
         <div className="absolute top-4 left-4 flex items-center gap-2">
-          <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-neutral-900 bg-white/85 backdrop-blur-md px-2.5 py-1 border border-[#00BFCC]/40">
+          <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-neutral-900 bg-white/85 backdrop-blur-md px-2.5 py-1 border border-[#FF6B00]/40">
             0{index + 1}
           </span>
           <span className="font-mono text-[10px] tracking-widest uppercase text-neutral-700 bg-white/85 backdrop-blur-md px-2.5 py-1 border border-neutral-200">
             {car.seats}
           </span>
         </div>
-        <div className="absolute top-4 right-4 flex items-center justify-center w-10 h-10 border border-neutral-200 bg-white/85 backdrop-blur-md group-hover:bg-[#00F0FF] group-hover:border-[#00BFCC] transition-colors duration-500">
+        <div className="absolute top-4 right-4 flex items-center justify-center w-10 h-10 border border-neutral-200 bg-white/85 backdrop-blur-md group-hover:bg-[#00F0FF] group-hover:border-[#FF6B00] transition-colors duration-500">
           <ArrowUpRight className="w-4 h-4 text-neutral-900 group-hover:text-neutral-900 transition-colors duration-500" />
         </div>
       </div>
@@ -120,7 +120,7 @@ const FleetCard = ({ car, index }) => {
       <div className="p-6 md:p-7 flex flex-col gap-4 flex-1">
         <div className="flex items-baseline justify-between gap-4">
           <div>
-            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] mb-1.5">
+            <div className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] mb-1.5">
               {car.tag}
             </div>
             <h3 className="font-display font-bold tracking-tight text-neutral-900 text-2xl md:text-[26px] leading-tight">
@@ -143,7 +143,7 @@ const FleetCard = ({ car, index }) => {
           <span className="font-mono text-[10px] tracking-widest text-neutral-500 uppercase">
             Book via WhatsApp
           </span>
-          <span className="font-mono text-[10px] tracking-widest text-[#00BFCC]">
+          <span className="font-mono text-[10px] tracking-widest text-[#FF6B00]">
             →
           </span>
         </div>
@@ -170,8 +170,8 @@ export const Fleet = () => {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-14 md:mb-20">
           <div className="md:col-span-8">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#00BFCC]" />
-              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+              <span className="h-px w-10 bg-[#FF6B00]" />
+              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
                 02 / The Fleet
               </span>
             </div>
@@ -200,15 +200,15 @@ export const Fleet = () => {
 
         <div className="mt-14 md:mt-16 grid md:grid-cols-2 gap-4">
           <div className="border border-[#C7EEF3] bg-[#F0FBFD] p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4">
-            <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] shrink-0">
+            <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] shrink-0">
               Local City Rides
             </span>
             <span className="text-neutral-700 text-sm font-light leading-relaxed">
               Per-km rates shown above apply to <span className="text-neutral-900 font-medium">local Hyderabad rides only</span>. Driver allowance, toll & parking are billed at actuals. No other hidden charges.
             </span>
           </div>
-          <div className="border border-[#00BFCC]/50 bg-[#E1F6FA] p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4">
-            <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#00BFCC] shrink-0">
+          <div className="border border-[#FF6B00]/50 bg-[#E1F6FA] p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-4">
+            <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-[#FF6B00] shrink-0">
               Airport Transfers
             </span>
             <span className="text-neutral-700 text-sm font-light leading-relaxed">

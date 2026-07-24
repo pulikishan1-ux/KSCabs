@@ -33,7 +33,7 @@ const StarRow = ({ rating, testId }) => (
         key={i}
         className={`w-3.5 h-3.5 ${
           i < rating
-            ? "fill-[#00BFCC] text-[#00BFCC]"
+            ? "fill-[#FF6B00] text-[#FF6B00]"
             : "fill-transparent text-neutral-300"
         }`}
       />
@@ -59,8 +59,8 @@ export const Testimonials = () => {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-14 md:mb-16">
           <div className="md:col-span-7">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#00BFCC]" />
-              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#00BFCC]">
+              <span className="h-px w-10 bg-[#FF6B00]" />
+              <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-[#FF6B00]">
                 04 / Testimonials
               </span>
             </div>
@@ -103,14 +103,14 @@ export const Testimonials = () => {
               }}
               className={`group relative border transition-colors duration-500 p-7 md:p-8 flex flex-col gap-6 shadow-sm hover:shadow-md ${
                 i === 1
-                  ? "bg-[#F0FBFD] border-[#00BFCC]/40 hover:border-[#00BFCC]"
-                  : "bg-white border-[#C7EEF3] hover:border-[#00BFCC]/60"
+                  ? "bg-[#F0FBFD] border-[#FF6B00]/40 hover:border-[#FF6B00]"
+                  : "bg-white border-[#C7EEF3] hover:border-[#FF6B00]/60"
               }`}
               data-testid={`testimonial-card-${i}`}
             >
               <div className="flex items-center justify-between">
                 <StarRow rating={r.rating} testId={`testimonial-stars-${i}`} />
-                <Quote className="w-6 h-6 text-[#00BFCC]/40 group-hover:text-[#00BFCC] transition-colors duration-500" />
+                <Quote className="w-6 h-6 text-[#FF6B00]/40 group-hover:text-[#FF6B00] transition-colors duration-500" />
               </div>
               <p className="text-neutral-800 text-base md:text-lg font-light leading-relaxed">
                 "{r.quote}"
@@ -119,7 +119,7 @@ export const Testimonials = () => {
                 <div className="font-display font-semibold text-neutral-900 text-base">
                   {r.name}
                 </div>
-                <div className="font-mono text-[10px] tracking-widest uppercase text-[#00BFCC] mt-1">
+                <div className="font-mono text-[10px] tracking-widest uppercase text-[#FF6B00] mt-1">
                   {r.role}
                 </div>
               </div>
