@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/KSCabs/static/css/main.b0b50311.css",
-    "main.js": "/KSCabs/static/js/main.d4c2a0ff.js",
+    "main.css": "/KSCabs/static/css/main.c0ef6453.css",
+    "main.js": "/KSCabs/static/js/main.aceaea0d.js",
     "index.html": "/KSCabs/index.html",
-    "main.b0b50311.css.map": "/KSCabs/static/css/main.b0b50311.css.map",
-    "main.d4c2a0ff.js.map": "/KSCabs/static/js/main.d4c2a0ff.js.map"
+    "main.c0ef6453.css.map": "/KSCabs/static/css/main.c0ef6453.css.map",
+    "main.aceaea0d.js.map": "/KSCabs/static/js/main.aceaea0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b50311.css",
-    "static/js/main.d4c2a0ff.js"
+    "static/css/main.c0ef6453.css",
+    "static/js/main.aceaea0d.js"
   ]
 }
