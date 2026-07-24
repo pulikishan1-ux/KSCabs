@@ -64,8 +64,8 @@ export const ContactForm = () => {
             <MetaBlock
               icon={<Mail className="w-4 h-4 text-[#FF6B00]" />}
               label="Enquiries"
-              value="bookings@ks-cabs.com"
-              href="mailto:bookings@ks-cabs.com"
+              value="pulikishan1@gmail.com"
+              href="mailto:pulikishan1@gmail.com"
               testId="contact-meta-email"
             />
             <MetaBlock
