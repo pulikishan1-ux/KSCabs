@@ -61,19 +61,19 @@
         "description": "Black sports car in dark moody garage - use as Hero background with dark overlay"
       },
       "fleet_suv_1": {
-        "url": "../frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg",
+        "url": "/images/PHOTO-2026-07-28-10-40-29.jpg",
         "description": "White SUV detail - use for Innova Crysta / Innova"
       },
       "fleet_suv_2": {
-        "url": "../frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
+        "url": "/images/PHOTO-2026-07-28-10-32-21.jpg",
         "description": "White SUV moving - use for Ertiga"
       },
       "fleet_sedan_1": {
-        "url": "frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
+        "url": "/images/PHOTO-2026-07-28-10-32-21.jpg",
         "description": "Silver sedan - use for Maruti Ciaz"
       },
       "fleet_sedan_2": {
-        "url": "../frontend/public/images/PHOTO-2026-07-28-10-35-28.jpg",
+        "url": "/images/PHOTO-2026-07-28-10-35-28.jpg",
         "description": "Silver car parked - use for Toyota Etios / Swift Dzire"
       },
       "manifesto_driver": {

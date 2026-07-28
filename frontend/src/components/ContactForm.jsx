@@ -30,7 +30,7 @@ export const ContactForm = () => {
         className="section-car-bg"
         style={{
           backgroundImage:
-            "url('frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg')",
+            "url('/images/PHOTO-2026-07-28-10-32-21.jpg')",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1440px] px-6 md:px-10">

@@ -9,8 +9,7 @@ export const FLEET = [
     seats: "7 seats",
     price: 22,
     desc: "Top-tier SUV for family trips, intercity runs and premium airport transfers.",
-    image:
-      "frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg",
+    image: "/images/PHOTO-2026-07-28-10-30-35_1.jpg",
     accent: true,
   },
   {
@@ -20,7 +19,7 @@ export const FLEET = [
     price: 20,
     desc: "The reliable long-distance companion. Spacious cabin, unshakeable ride.",
     image:
-      "frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg",
+      "/images/PHOTO-2026-07-28-10-40-29.jpg",
   },
   {
     name: "Maruti Ertiga",
@@ -29,7 +28,7 @@ export const FLEET = [
     price: 18,
     desc: "Perfect middle-ground SUV — nimble in city traffic, comfortable on highways.",
     image:
-      "frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
+      "/images/PHOTO-2026-07-28-10-32-21.jpg",
   },
   {
     name: "Maruti Ciaz",
@@ -38,7 +37,7 @@ export const FLEET = [
     price: 16,
     desc: "Sedan comfort with a business-class demeanour. Ideal for corporate rides.",
     image:
-      "frontend/public/images/PHOTO-2026-07-28-10-30-35.jpg",
+      "/images/PHOTO-2026-07-28-10-30-35.jpg",
   },
   {
     name: "Toyota Etios",
@@ -47,7 +46,7 @@ export const FLEET = [
     price: 15,
     desc: "Legendary reliability and cabin space at a value-forward rate.",
     image:
-      "../frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
+      "/images/PHOTO-2026-07-28-10-32-21.jpg",
   },
   {
     name: "Swift Dzire",
@@ -56,7 +55,7 @@ export const FLEET = [
     price: 14,
     desc: "The city sedan. Snappy, efficient, and always ready when you are.",
     image:
-      "../frontend/public/images/PHOTO-2026-07-28-10-35-28.jpg",
+      "/images/PHOTO-2026-07-28-10-35-28.jpg",
   },
 ];
 
@@ -163,7 +162,7 @@ export const Fleet = () => {
         className="section-car-bg"
         style={{
           backgroundImage:
-            "url('frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg')",
+            "url('/images/PHOTO-2026-07-28-10-40-29.jpg')",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1440px] px-6 md:px-10">
