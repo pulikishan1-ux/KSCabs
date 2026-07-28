@@ -92,7 +92,7 @@ export const BookForm = () => {
         className="section-car-bg"
         style={{
           backgroundImage:
-            "url('https://images.pexels.com/photos/31138744/pexels-photo-31138744.jpeg')",
+            "url('frontend/public/images/PHOTO-2026-07-28-10-30-35.jpg')",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1440px] px-6 md:px-10">

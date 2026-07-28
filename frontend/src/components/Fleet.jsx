@@ -38,7 +38,7 @@ export const FLEET = [
     price: 16,
     desc: "Sedan comfort with a business-class demeanour. Ideal for corporate rides.",
     image:
-      "https://images.pexels.com/photos/31138744/pexels-photo-31138744.jpeg",
+      "frontend/public/images/PHOTO-2026-07-28-10-30-35.jpg",
   },
   {
     name: "Toyota Etios",

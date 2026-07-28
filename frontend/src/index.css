@@ -237,7 +237,7 @@ html.lenis, html.lenis body {
             rgba(240, 251, 253, 0.90) 50%,
             rgba(255, 255, 255, 0.94) 100%
         ),
-        url("https://images.pexels.com/photos/9028761/pexels-photo-9028761.jpeg");
+        url("frontend/public/images/PHOTO-2026-07-28-10-30-35_1.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
