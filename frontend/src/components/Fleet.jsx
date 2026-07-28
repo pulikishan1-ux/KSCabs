@@ -10,7 +10,7 @@ export const FLEET = [
     price: 22,
     desc: "Top-tier SUV for family trips, intercity runs and premium airport transfers.",
     image:
-      "https://images.pexels.com/photos/37933345/pexels-photo-37933345.jpeg",
+      "frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg",
     accent: true,
   },
   {
@@ -20,7 +20,7 @@ export const FLEET = [
     price: 20,
     desc: "The reliable long-distance companion. Spacious cabin, unshakeable ride.",
     image:
-      "https://images.pexels.com/photos/15549900/pexels-photo-15549900.jpeg",
+      "frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg",
   },
   {
     name: "Maruti Ertiga",
@@ -29,7 +29,7 @@ export const FLEET = [
     price: 18,
     desc: "Perfect middle-ground SUV — nimble in city traffic, comfortable on highways.",
     image:
-      "https://images.pexels.com/photos/12920621/pexels-photo-12920621.jpeg",
+      "frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
   },
   {
     name: "Maruti Ciaz",
@@ -47,7 +47,7 @@ export const FLEET = [
     price: 15,
     desc: "Legendary reliability and cabin space at a value-forward rate.",
     image:
-      "https://images.pexels.com/photos/9028761/pexels-photo-9028761.jpeg",
+      "../frontend/public/images/PHOTO-2026-07-28-10-32-21.jpg",
   },
   {
     name: "Swift Dzire",
@@ -56,7 +56,7 @@ export const FLEET = [
     price: 14,
     desc: "The city sedan. Snappy, efficient, and always ready when you are.",
     image:
-      "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg",
+      "../frontend/public/images/PHOTO-2026-07-28-10-35-28.jpg",
   },
 ];
 
@@ -163,7 +163,7 @@ export const Fleet = () => {
         className="section-car-bg"
         style={{
           backgroundImage:
-            "url('https://images.pexels.com/photos/15549900/pexels-photo-15549900.jpeg')",
+            "url('frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg')",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1440px] px-6 md:px-10">

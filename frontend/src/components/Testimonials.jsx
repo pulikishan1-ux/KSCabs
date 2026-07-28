@@ -52,7 +52,7 @@ export const Testimonials = () => {
         className="section-car-bg"
         style={{
           backgroundImage:
-            "url('https://images.pexels.com/photos/37933345/pexels-photo-37933345.jpeg')",
+            "url('frontend/public/images/PHOTO-2026-07-28-10-40-29.jpg')",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1440px] px-6 md:px-10">
