@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.kscabs.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kscabs.com/Fleet</loc>
+  </url>
+
+  <url>
+    <loc>https://www.kscabs.com/Manifesto</loc>
+  </url>
+
+  <url>
+    <loc>https://www.kscabs.com/contact</loc>
+  </url>
+
+</urlset>
