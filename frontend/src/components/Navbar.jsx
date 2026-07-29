@@ -36,21 +36,14 @@ export const Navbar = () => {
       <div className="mx-auto max-w-[1440px] px-6 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <a
           href="#home"
-          className="flex items-center gap-3 group"
+          className="flex items-center"
           data-testid="nav-logo"
         >
-          <div className="relative">
-            <div className="h-8 w-8 border border-[#FF6B00] rotate-45 group-hover:rotate-[135deg] transition-transform duration-700" />
-            <div className="absolute inset-1 bg-[#00F0FF]/25" />
-          </div>
-          <div className="flex flex-col leading-none">
-            <span className="font-display font-black tracking-tighter text-neutral-900 text-lg">
-              KS CABS
-            </span>
-            <span className="font-mono text-[10px] tracking-[0.3em] text-[#FF6B00]">
-              HYDERABAD
-            </span>
-          </div>
+          <img
+            src="/logo.png"
+            alt="KS Cabs"
+            className="h-14 md:h-16 w-auto"
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-1">
