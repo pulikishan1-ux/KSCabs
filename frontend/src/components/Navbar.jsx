@@ -40,7 +40,7 @@ export const Navbar = () => {
           data-testid="nav-logo"
         >
           <img
-            src="/logo.png"
+            src="/images/logo.png"
             alt="KS Cabs"
             className="h-14 md:h-16 w-auto"
           />
