@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.755a1776.css",
-    "main.js": "/static/js/main.ba86a4e1.js",
+    "main.css": "/static/css/main.cf6ab6d6.css",
+    "main.js": "/static/js/main.d7fa3578.js",
     "static/media/innova-crysta.jpg": "/static/media/innova-crysta.8c357b638dee915497c6.jpg",
     "index.html": "/index.html",
-    "main.755a1776.css.map": "/static/css/main.755a1776.css.map",
-    "main.ba86a4e1.js.map": "/static/js/main.ba86a4e1.js.map"
+    "main.cf6ab6d6.css.map": "/static/css/main.cf6ab6d6.css.map",
+    "main.d7fa3578.js.map": "/static/js/main.d7fa3578.js.map"
   },
   "entrypoints": [
-    "static/css/main.755a1776.css",
-    "static/js/main.ba86a4e1.js"
+    "static/css/main.cf6ab6d6.css",
+    "static/js/main.d7fa3578.js"
   ]
 }
